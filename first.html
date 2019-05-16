@@ -1,1 +1,30 @@
-<h1>flowercloudy</h1>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"> 
+<title>菜鸟教程(runoob.com)</title> 
+<script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js">
+</script>
+<script>
+$(document).ready(function(){
+  $("p").click(function(){
+    $(this).hide();
+  });
+  $("#img").click(
+      function(){
+        $(this).hide();
+          alert("flowercloudy");
+
+
+      }
+  )
+});
+</script>
+</head>
+<body>
+<p>如果你点我，我就会消失。</p>
+<p>继续点我!</p>
+<p>接着点我!</p>
+<img id="img" src="http://pic.58pic.com/58pic/15/68/59/71X58PICNjx_1024.jpg">
+</body>
+</html>
